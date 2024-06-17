@@ -25,9 +25,9 @@
 - name: load {{component}} data 
   ansible.builtin.command: "mongo --host mongodb.bigmatrix.in < /app/schema/{{component}}.js"
   when: entries_count.stdout == "0" and component == "catalogue"
-  ignore_error: true
-  
+  ignore_errors: true
+
 - name: load {{component}} data 
   ansible.builtin.command: "mongo --host mongodb.bigmatrix.in < /app/schema/{{component}}.js"
   when: entries_count.stdout == "0" and component == "user"
-  ignore_error: true
+  ignore_errors: true
