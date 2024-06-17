@@ -24,4 +24,4 @@
 
 - name: load {{component}} data 
   ansible.builtin.command: "mongo --host mongodb.bigmatrix.in < /app/schema/{{component}}.js"
-  when: {{entries_count.stdout}} == "0"
+  when: entries_count.stdout == "0"
