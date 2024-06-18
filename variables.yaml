@@ -1,3 +1,5 @@
 MONGODB_HOST: mongodb.bigmatrix.in
 REDIS_HOST: redis.bigmatrix.in
+USER_HOST: user.bigmatrix.in
+
 
