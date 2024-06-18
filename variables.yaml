@@ -2,4 +2,10 @@ MONGODB_HOST: mongodb.bigmatrix.in
 REDIS_HOST: redis.bigmatrix.in
 USER_HOST: user.bigmatrix.in
 CATALOGUE_HOST: catalogue.bigmatrix.in
+CART_HOST: cart.bigmatrix.in
+SHIPPING_HOST: shipping.bigmatrix.in
+PAYMENT_HOST: payment.bigmatrix.in
+MYSQL_HOST: mysql.bigmatrix.in
+RABBITMQ_HOST: rabbitmq.bigmatrix.in
+DISPATCH_HOST: dispatch.bigmatrix.in
 
